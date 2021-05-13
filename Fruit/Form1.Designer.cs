@@ -40,27 +40,28 @@ namespace Fruit
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(20, 18);
+            this.label1.Location = new System.Drawing.Point(12, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 25);
+            this.label1.Size = new System.Drawing.Size(151, 25);
             this.label1.TabIndex = 1;
-            this.label1.Text = "К-во ящиков";
+            this.label1.Text = "Number of boxes";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(179, 18);
+            this.label2.Location = new System.Drawing.Point(169, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 25);
+            this.label2.Size = new System.Drawing.Size(104, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Вес ящика";
+            this.label2.Text = "Box weight ";
             // 
             // label3
             // 
@@ -68,9 +69,9 @@ namespace Fruit
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(338, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 25);
+            this.label3.Size = new System.Drawing.Size(58, 25);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Падон";
+            this.label3.Text = "Pallet ";
             // 
             // label4
             // 
@@ -78,9 +79,9 @@ namespace Fruit
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(497, 18);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(113, 25);
+            this.label4.Size = new System.Drawing.Size(108, 25);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Грязный вес";
+            this.label4.Text = "Dirty weight";
             // 
             // label5
             // 
@@ -88,9 +89,9 @@ namespace Fruit
             this.label5.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.Location = new System.Drawing.Point(12, 135);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(237, 54);
+            this.label5.Size = new System.Drawing.Size(229, 54);
             this.label5.TabIndex = 1;
-            this.label5.Text = "Чистый вес:";
+            this.label5.Text = "Net weight:";
             // 
             // textBox1
             // 
@@ -168,6 +169,16 @@ namespace Fruit
             this.label6.TabIndex = 2;
             this.label6.Text = "0";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(723, 18);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(119, 25);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Copy to Excel";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -178,6 +189,7 @@ namespace Fruit
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox1);
@@ -207,6 +219,7 @@ namespace Fruit
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 
